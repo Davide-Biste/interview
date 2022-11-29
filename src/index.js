@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Card from "./component/Card";
 import WebFont from "webfontloader";
+import Products from "./component/Products";
 
 WebFont.load({
   google: {
@@ -21,5 +22,7 @@ root.render(
       }
       onClick={() => console.log("Done!")}
     />
+    <br />
+    <Products />
   </React.StrictMode>
 );
